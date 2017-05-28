@@ -1,4 +1,4 @@
-#pragma clite grid(input, dx, dy)
+#pragma imcl grid(input, dx, dy)
 
 void sobel(Image<float> input, Image<float> dx, Image<float> dy){
 

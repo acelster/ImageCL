@@ -1,4 +1,4 @@
-#pragma clite grid(dx, dy, output)
+#pragma imcl grid(dx, dy, output)
 
 void harris(Image<float> dx, Image<float> dy, Image<float> output, float k){
 
