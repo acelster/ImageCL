@@ -25,4 +25,4 @@ iclc : src/main.cpp $(OBJ_FILES)
 	g++ -std=c++11 src/main.cpp $(OBJ_FILES) -g -I $(ROSE_INCLUDE_DIR) -L $(ROSE_LIB_DIR) -L $(BOOST_LIB_DIR) -L $(JAVA_LIB_DIR)  -l rose -l boost_system -l boost_iostreams -l jvm -l boost_date_time -l boost_thread -l boost_filesystem -l boost_program_options -l boost_regex -l boost_wave -o iclc
 
 clean:
-	rm -f clite tester src/*.o unittests/*.o
+	rm -f iclc tester src/*.o unittests/*.o

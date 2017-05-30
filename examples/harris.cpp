@@ -1,4 +1,5 @@
 #pragma imcl grid(dx, dy, output)
+#pragma imcl boundary_cond(dx:constant,dy:constant)
 
 void harris(Image<float> dx, Image<float> dy, Image<float> output, float k){
 

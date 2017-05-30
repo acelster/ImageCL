@@ -1,4 +1,5 @@
 #pragma imcl grid(input, dx, dy)
+#pragma imcl boundary_cond(input:constant)
 
 void sobel(Image<float> input, Image<float> dx, Image<float> dy){
 
